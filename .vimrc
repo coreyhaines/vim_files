@@ -22,3 +22,5 @@ map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>nr :NERDTree<CR>
 
 map <silent> <LocalLeader>nh :nohls<CR>
+
+set vb

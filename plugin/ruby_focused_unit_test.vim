@@ -107,6 +107,10 @@ class RubyFocusedUnitTest
     write_output_to_buffer("spec #{current_file} -l #{line_number}")
   end
 
+  def run_spec2
+    write_output_to_buffer("ruby -Ilib -Ispec #{current_file}")
+  end
+
   def run_unit_test
     method_name = nil
 
@@ -130,7 +134,7 @@ class RubyFocusedUnitTest
 
   def run_test
     if spec_file?
-      run_spec
+      run_spec2
     else
       run_unit_test
     end
