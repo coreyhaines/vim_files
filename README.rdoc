@@ -1,0 +1,3 @@
+Please do not use my version of this. Use spicycode's vimlander 2: the quickening!
+
+http://github.com/spicycode/Vimlander-2-The-Quickening
