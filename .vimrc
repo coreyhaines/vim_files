@@ -23,4 +23,6 @@ map <silent> <LocalLeader>nr :NERDTree<CR>
 
 map <silent> <LocalLeader>nh :nohls<CR>
 
+map <silent> <LocalLeader>oi :!open %<CR>
+
 set vb

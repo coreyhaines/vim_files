@@ -1,0 +1,3 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/coreyhaines/Documents/projects/ioke/my_stuff/koans/koans'
